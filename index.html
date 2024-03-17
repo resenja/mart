@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1>NASLOV</h1></header>
+    <main>
+      <div id="levo">
+        <h2>lista linkova</h2>
+        <ul>
+          <li><a href="link1">link1</a></li>
+          <li><a href="link2">link1</a></li>
+          <li><a href="link3">link1</a></li>
+          <li><a href="link4">link1</a></li>
+        </ul>
+      </div>
+      <div id="sredina">
+        <h2>Pasus 1</h2>
+        <p>tekst tekst tekst</p>
+        <h2>Pasus 2</h2>
+        <p>tekst tekst tekst</p>
+        <h2>Pasus 3</h2>
+        <p id="unos-teksta"></p>
+      </div>
+      <div id="desno">
+        <h2>velicina slova</h2>
+        <label><input type="radio" name="velicina-slova" id="velika-slova" checked />VELIKA SLOVA</label>
+        <label><input type="radio" name="velicina-slova" id="mala-slova" />mala slova</label>
+        <button onclick="velicinaSlova();">prebaci</button>
+        <h2>boja teksta</h2>
+        <label><input type="radio" name="boja-slova" id="plava-slova" checked />plava</label>
+        <label><input type="radio" name="boja-slova" id="crvena-slova" />crvena</label>
+        <label><input type="radio" name="boja-slova" id="zelena-slova" />zelena</label>
+        <button onclick="bojaSlova();">prebaci</button>
+        <h2>boja pozadine</h2>
+        <label><input type="radio" name="boja-pozadine" id="zuta-pozadina" checked />žuta</label>
+        <label><input type="radio" name="boja-pozadine" id="crna-pozadina" />crna</label>
+        <button onclick="bojaPozadine();">prebaci</button>
+        <h2>ubaci tekst u pasus</h2>
+        <textarea cols="20" rows="10"></textarea>
+        <button onclick="ubaciTekst();">ubaci</button>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+header {
+  text-align: center;
+}
+header > h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+main {
+  text-align: center;
+}
+
+#levo,
+#sredina,
+#desno {
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+#sredina {
+  text-align: center;
+}
+#levo {
+  float: left;
+}
+#desno {
+  float: right;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
